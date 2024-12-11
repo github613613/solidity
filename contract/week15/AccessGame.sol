@@ -17,8 +17,12 @@ contract AccessGame {
     constructor() {
         initOwner(msg.sender);
     }
+    //  修复前
+    // function initOwner(address _owner) internal {
+    //     owner = _owner;
+    // }
 
-    function initOwner(address _owner) public {
+    function initOwner(address _owner) internal {
         owner = _owner;
     }
 

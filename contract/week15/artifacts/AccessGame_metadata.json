@@ -73,19 +73,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					}
-				],
-				"name": "initOwner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -127,11 +114,11 @@
 	},
 	"sources": {
 		"contract/week15/AccessGame.sol": {
-			"keccak256": "0x768bc9b4955d37d434f6034b2854b00a4bf83e075d01f9962ef9dbc5bca7cba2",
+			"keccak256": "0x6c35d0dbdc39953e6561b0508e6f07bff8a7fbff13933aa62c168722cea39bf3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://73b89665b3109473b9464bb2c2db73650591f59bf7eed405fbfbaa3e9670b1a4",
-				"dweb:/ipfs/QmddD7f4FmndcSKdtABncD1GkRDWReG3bm7PMzQfxmHYRM"
+				"bzz-raw://85b5c77318bd496c51cb621ecaafbec30132695751c1b77e007c07602da5347d",
+				"dweb:/ipfs/QmfJosryjVKaLGPekzNLKrBmRhfceyowvQBdWRuUKSPsoQ"
 			]
 		}
 	},
