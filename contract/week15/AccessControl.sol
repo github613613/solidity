@@ -35,18 +35,63 @@ contract AccessControl {
 
     // 仅允许管理员访问的函数
     modifier onlyAdmin() {
-        require(isAdmin(msg.sender),unicode"你不是管理员!");
+        require(isAdmin(msg.sender), unicode"你不是管理员!");
         _;
     }
 
 
     // 仅允许管理员访问的函数
     modifier onlyUser() {
-        require(isUser(msg.sender),unicode"你不是用户!");
+        require(isUser(msg.sender), unicode"你不是正确用户!");
         _;
     }
 
+    // 添加管理员角色
+    function addAdmin(address account) public onlyAdmin {
+        require(!adminAccounts[account].exists, " ");
+        adminAccounts[account] = Admin(true, admins.length);
+        admins.push(account);
+        emit AdminAdded(account);
+    }
+
+    // 删除管理员角色
+    function removeAdmin(address account) public onlyAdmin {
+        require(adminAccounts[account].exists," ");
+        uint256 indexToDelete = adminAccounts[account].index;
+        address accountToMove = admins[admins.length - 1];
+        admins[indexToDelete] = accountToMove;
+        adminAccounts[accountToMove].index = indexToDelete;
+        admins.pop();
+        delete adminAccounts[account];
+        emit AdminRemoved(account);
+    }
+
+
+    // 添用户角色
+    function addUser(address account) public onlyAdmin {
+        require(!userAccounts[account].exists, " ");
+        userAccounts[account] = Admin(true, users.length);
+        users.push(account);
+        emit UserAdded(account);
+    }
+
+    // 删除用户角色
+    function removeUser(address account) public onlyAdmin {
+        require(userAccounts[account].exists," ");
+        uint256 indexToDelete = userAccounts[account].index;
+        address accountToMove = users[users.length - 1];
+        users[indexToDelete] = accountToMove;
+        userAccounts[accountToMove].index = indexToDelete;
+        users.pop();
+        delete adminAccounts[account];
+        emit UserRemoved(account);
+    }
     
-    
-    
+    function isAdmin(address account) public view returns (bool) {
+        return adminAccounts[account].exists;
+    }
+
+    function isUser(address account) public view returns (bool) {
+        return userAccounts[account].exists;
+    }
 }
