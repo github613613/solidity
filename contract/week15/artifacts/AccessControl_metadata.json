@@ -86,6 +86,32 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "addAdmin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "addUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -100,6 +126,70 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isAdmin",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isUser",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "removeAdmin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "removeUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -150,11 +240,11 @@
 	},
 	"sources": {
 		"contract/week15/AccessControl.sol": {
-			"keccak256": "0x8492adcf65c84bd729d862f6c6bece40e72ccb659e97101d74435391ad388f71",
+			"keccak256": "0xdce84296614c4fc6ff2bf46e49ec301f478d3bfe8b97b7113c906bab122b7efb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://13a0f45924f10b6e89bfccdda2627189212aa71ca2676907a9c39411571cf839",
-				"dweb:/ipfs/QmaB3jG18yNHyYcVF7NSRrFTLnYeTeVLbNR8ZCPWuiLj8E"
+				"bzz-raw://2b506d492fdd6812d1daa8a3d5eddfcbcf8a0e42848b623bafaf47c4a58a7c64",
+				"dweb:/ipfs/QmfTtfsKxtWaJqySGkXAHXQZrbU2jJ5dfghNAXUcZLMu5q"
 			]
 		}
 	},

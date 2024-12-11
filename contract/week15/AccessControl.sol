@@ -70,7 +70,7 @@ contract AccessControl {
     // 添用户角色
     function addUser(address account) public onlyAdmin {
         require(!userAccounts[account].exists, " ");
-        userAccounts[account] = Admin(true, users.length);
+        userAccounts[account] = User(true, users.length);
         users.push(account);
         emit UserAdded(account);
     }
@@ -83,7 +83,7 @@ contract AccessControl {
         users[indexToDelete] = accountToMove;
         userAccounts[accountToMove].index = indexToDelete;
         users.pop();
-        delete adminAccounts[account];
+        delete userAccounts[account];
         emit UserRemoved(account);
     }
     
