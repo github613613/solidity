@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/week15/AccessControl.sol": "Access"
+			"contract/week15/AccessControl.sol": "A"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contract/week15/AccessControl.sol": {
-			"keccak256": "0x91d05e73f96394064f227ab6357db861c87771a9abf21c6771aa4612a603fe5c",
+			"keccak256": "0x75178a41170dade4138db6d85ccba615910df9f560eb3708e86070fc5fa23385",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5077955fcc7577fc5677a6b8fb67ecf0e1c4b91fae48506620a7beedc230806f",
-				"dweb:/ipfs/QmZ9M5KWJCNsVU4H4VmdvxMT6Rfj73BSbGLCVD1amAyxaQ"
+				"bzz-raw://cc5e9a5263fb9413c5a738ba2641acac344a245ce925dea51d5991ed31dd18a1",
+				"dweb:/ipfs/QmdWyJ1vugEFaS3a2DdVPwHsHFfHHKPWFMbNZiP9w9CxVR"
 			]
 		}
 	},

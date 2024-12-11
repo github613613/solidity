@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/week15/AccessGame.sol": "Name"
+			"contract/week15/AccessControl.sol": "Name"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract/week15/AccessGame.sol": {
+		"contract/week15/AccessControl.sol": {
 			"keccak256": "0xca3d9a6f62b2191cf14d644e75a375e821e410eb68a7404588bfd764359daa4e",
 			"license": "MIT",
 			"urls": [
