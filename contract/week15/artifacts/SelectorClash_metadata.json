@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_method",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_bytes",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_byte1",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_num",
+						"type": "uint64"
+					}
+				],
+				"name": "executeCrossChainTx",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_bytes",
+						"type": "bytes"
+					}
+				],
+				"name": "putCurEpochConPubKeyBytes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "solved",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/week15/SelectorClash.sol": "SelectorClash"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/week15/SelectorClash.sol": {
+			"keccak256": "0x838ed219b29b3c95f34bde937c6460863fece33903d20717e8bdd39bdc04fe69",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://606d792a86e47f3be3e6fcf6afdcbb36cd86fd9ab044734d9f9813748e8d4601",
+				"dweb:/ipfs/QmdyfTPbu1s4cQf2N1WBmWFMmUdt819H4yKSQC2naWEjB6"
+			]
+		}
+	},
+	"version": 1
+}
