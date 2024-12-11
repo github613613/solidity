@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.4.26+commit.4563c3fc"
+		"version": "0.4.24+commit.e67f0147"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,11 +9,11 @@
 				"constant": false,
 				"inputs": [
 					{
-						"name": "_stringVal",
+						"name": "_msg",
 						"type": "string"
 					}
 				],
-				"name": "set",
+				"name": "helloworld",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
@@ -22,7 +22,7 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "get",
+				"name": "say",
 				"outputs": [
 					{
 						"name": "",
@@ -55,9 +55,9 @@
 	},
 	"sources": {
 		"HelloWorld.sol": {
-			"keccak256": "0x640671fb85d5c13269a1a2d7cb09da673b8d983f586d83a8b8c84f9deed9c378",
+			"keccak256": "0x32ac490da88108a68d2dd8603a7d72df32944260aa90e77741194fd1581d41e3",
 			"urls": [
-				"bzzr://25530e2cd200f48ebe80c9567dd47503a3c0adc9bb52adef0a8b7737cb33321d"
+				"bzzr://38dfc4bf0b9a71a69fce46b4a97e6021f6c4671968079be2f5372496f1cbc36f"
 			]
 		}
 	},

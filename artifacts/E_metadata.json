@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"E.sol": "Name"
+			"E.sol": "E"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"E.sol": {
-			"keccak256": "0x4303b7fe9d9a2caf3dd4a1b589d97fd81fb7108646020267f14a524dd77ace07",
+			"keccak256": "0xfd60f4789f9e72f82298904e69baf7a3593f43ae972a059f30f978076e40f20e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://584d675c4cebe6ace60d05a8d7650f531c3c24894c77c8068f5fa4e723091fa9",
-				"dweb:/ipfs/QmetXCX4pE4GQbfEWTStxBN6YEVpFDuK3cMhoFrcMRqu3X"
+				"bzz-raw://34f13dbf4cd6741e2141c7d7ac5605a6624c621a24d9f4ef09f253fe758aff47",
+				"dweb:/ipfs/QmYRyh3Csgfb6VvPQVzi6RLCq7KV3R8JUZgm453AsLFF5S"
 			]
 		}
 	},

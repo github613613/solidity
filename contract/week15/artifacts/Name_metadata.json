@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"E.sol": "Name"
+			"contract/week15/AccessGame.sol": "Name"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"E.sol": {
-			"keccak256": "0x4303b7fe9d9a2caf3dd4a1b589d97fd81fb7108646020267f14a524dd77ace07",
+		"contract/week15/AccessGame.sol": {
+			"keccak256": "0xca3d9a6f62b2191cf14d644e75a375e821e410eb68a7404588bfd764359daa4e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://584d675c4cebe6ace60d05a8d7650f531c3c24894c77c8068f5fa4e723091fa9",
-				"dweb:/ipfs/QmetXCX4pE4GQbfEWTStxBN6YEVpFDuK3cMhoFrcMRqu3X"
+				"bzz-raw://fb0503306b0104f3abb75353d131c259d96524f9241b4d843e1c899729bbb356",
+				"dweb:/ipfs/QmXgEaf6VGn5Fx9MtmEWrimbbvrvS2dGkd9XdVxLCeyJdv"
 			]
 		}
 	},
